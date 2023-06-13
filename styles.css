@@ -1,18 +1,17 @@
 body {
   background-color: hsl(212, 45%, 89%);
-  padding: 0 20px;
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
+  align-items: center;
   justify-content: center;
   font-family: "Outfit", sans-serif;
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  margin: auto;
-  padding: 16px;
   border-radius: 16px;
   max-width: 290px;
+  padding: 16px;
 }
 
 img.card-image {
@@ -24,7 +23,7 @@ img.card-image {
   padding: 0 16px;
 }
 
-h4 {
+h1 {
   font-size: 22px;
   text-align: center;
   color: hsl(218, 44%, 22%);
